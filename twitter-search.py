@@ -1,8 +1,8 @@
 import tweepy
 import json
 # Authenticate to Twitter
-auth = tweepy.OAuthHandler("ztWu4DaLOB6begUDvLqA6zJRw", "cMtL3VtUfQN6WpBW3SxfqJF5Ay0OQT5lfsqH5GIxur14wBfqz6")
-auth.set_access_token("124793231-040zKvhQO3LQQisjq77jEWYBJE1pdOh12ieyKDSX","5N7AIwyijoOrSwGV9ZBms3E7OY49qk0oIV3sKwAYacGI3")
+auth = tweepy.OAuthHandler("???", "???")
+auth.set_access_token("???","???")
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, parser=tweepy.parsers.JSONParser())
 # test authentication
 try:
